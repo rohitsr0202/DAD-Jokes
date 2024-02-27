@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0px;
+  background-color: whitesmoke;
+  background-size: cover;
+  font-family: "Times New Roman", Times, serif;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/backimg.jpg);
+}
+
+.container {
+  border: 2px solid rgb(5, 5, 5);
+  background-color: beige;
+  border-radius: 13px;
+  width: 500px;
+  box-shadow: 0 5px 5px 5px rgb(35, 33, 33);
+  text-align: center;
+}
+
+h3 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  font-size: large;
+  text-shadow: none;
+  color: rgb(19, 22, 7);
+  letter-spacing: 2px;
+}
+.joke {
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  margin: 50px auto;
+  max-width: 500px;
+}
+#jokebtn{
+  background-color: black;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 12px;
+  padding: 10px;
+}
